@@ -1,0 +1,5 @@
+Dynamic parts of the application:
+- the tasks that are added ie the text added in the text box
+- the "things to do counter"
+- the "done" and "delete" buttons
+- any notifications/alerts that may be received when the user adds anything 
