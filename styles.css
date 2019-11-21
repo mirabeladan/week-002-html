@@ -1,0 +1,64 @@
+body {
+    text-align: left;
+    background: lightcoral;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .image {
+    float:right;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    left: 0; 
+    /* transform: rotate(-45deg); */
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+  
+     .image img {
+      width: 100%;
+      height: auto;
+    } 
+
+    @keyframes beat {
+      0% {
+        transform: scale(1) rotate();
+      }
+      50% {
+        transform: scale(0.6) rotate(-360deg);
+      }
+    }
+
+    button:hover, input[type="submit"]:hover {
+        background-color: lightsalmon;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font: 400 60px/1.5 'Pacifico', Helvetica, sans-serif;
+        color: white;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+      }
+
+
+p{
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 20px;
+}
+
+tr {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+}
