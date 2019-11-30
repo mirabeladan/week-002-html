@@ -41,7 +41,7 @@ body {
       }
     }
 
-    button:hover, input[type="submit"]:hover {
+    button:hover  {
         background-color: lightsalmon;
         border-radius: 12px;
     }
@@ -55,10 +55,18 @@ body {
 
 p{
       font-family: 'Gloria Hallelujah', cursive;
-      font-size: 20px;
+      font-size: 40px;
 }
 
-tr {
+.row {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
+}
+
+#button-addon2 {
+  background-color: whitesmoke;
+}
+
+#button-addon2:hover {
+  background: lightsalmon;
 }
